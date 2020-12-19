@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+main
 public class MainActivity extends AppCompatActivity {
 
     TextView mTextView = (TextView) findViewById(R.id.textView);
