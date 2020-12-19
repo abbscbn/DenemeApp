@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-
+// yorum satırı
 public class MainActivity extends AppCompatActivity {
 
     @Override
