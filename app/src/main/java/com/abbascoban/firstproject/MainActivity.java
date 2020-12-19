@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView mTextView = (TextView) findViewById(R.id.textView);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.imageView);
 
         imageView.setImageResource(R.drawable.bodrum);
+        mTextView.setText("Dalga Dalga Dalga Dalgalanıyor");
     }
 }
